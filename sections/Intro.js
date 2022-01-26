@@ -47,14 +47,22 @@ export default function Intro() {
           </h1>
         </div>
 
-        <Button
+        {/* <Button
           className={styles.buttonBanniere}
           variant="contained"
           onClick={handleClick}
         >
           Demander un Devis
-        </Button>
+        </Button> */}
       </div>
+
+      <Button
+          className={styles.buttonBanniere2}
+          variant="contained"
+          onClick={handleClick}
+        >
+          Demander un Devis
+        </Button>
       <motion.hr
         ref={ref}
         animate={controls}

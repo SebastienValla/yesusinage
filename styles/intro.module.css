@@ -34,6 +34,15 @@ left : 38%;
 top: 35em;
 }
 
+.buttonBanniere2{
+  z-index: 99;
+display: flex;
+
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
 /* telephone */
 @media (max-width : 600px)
 {

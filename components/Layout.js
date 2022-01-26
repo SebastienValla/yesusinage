@@ -8,8 +8,8 @@ import Image from "next/image";
 export default function Layout({ children }) {
   return (
     <div className={styles.container}>
-      <AppBar className={styles.appBar}>
-          <Toolbar>
+      <AppBar className={styles.appBar} style={{backgroundColor :"#fefefe"}}>
+          <Toolbar style={{backgroundColor :"#fefefe"}}>
         <div className={styles.logo}>
           <Image src={YESUSINAGE} alt="yes usinage Logo"/>
         </div>
