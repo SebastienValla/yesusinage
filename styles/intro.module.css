@@ -1,0 +1,60 @@
+.main {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  background: #fefefe;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banniere {
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  z-index: -1;
+  object-fit: contain;
+}
+
+.textBanniere{
+  z-index: 99;
+  color: white;
+  position: absolute;
+  top : 8%;
+  left: 3%;
+  max-width: 40%;
+}
+
+.buttonBanniere{
+  z-index: 99;
+position: absolute;
+left : 38%;
+top: 35em;
+}
+
+/* telephone */
+@media (max-width : 600px)
+{
+  .textBanniere{
+    font-size: 0.6em;
+    top : 1%;
+    left: 3%;
+    max-width: 60%;
+  }
+
+  .buttonBanniere{
+  left : 50%;
+  top: 8em;
+  }
+}
+/* Tablette  */
+
+@media(max-width : 850px){
+  .buttonBanniere{
+    left : 50%;
+    top: 8em;
+    }
+}
+

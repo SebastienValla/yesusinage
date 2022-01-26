@@ -1,0 +1,69 @@
+.container {
+  overflow: hidden;
+}
+
+.appBar {
+  background-color: #fefefe;
+  height: 70px;
+ 
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  flex-grow: 1;
+  margin-left: -4%;
+  margin-top: 7px;
+}
+
+.container li {
+  float: left;
+  color : #464846;
+}
+
+.container li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container li h1 {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.container li a:hover {
+  background-color: #00C2CB;
+}
+
+.footer {
+  display: flex;
+  /* flex: 1; */
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center; 
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; 
+} 
+
+
+@media (max-width: 600px) {
+.footer, .container li a{
+  display: none;
+}
+
+}
