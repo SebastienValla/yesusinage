@@ -12,39 +12,31 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Yes Usinage</title>
-
-          <meta
-            name="description"
-            content="Yes usinage fournit des usinages de précision et de grandes dimensions"
-            name="Content-Type"
-            content="UTF-8"
-            name="Content-Language"
-            content="fr"
-            name="Revisit-After"
-            content="15 days"
-            name="Category"
-            content="engineering"
-            name="Keywords"
-            content="usinage,
-            usinage plastique,
-            usinage cnc,
-            usinage aluminium,
-            usinage 5 axes,
-            usinage mécanique,
-            usinage fraiseuse,
-            usinage toulouse,
-            usinage fraisage,
-            usinage lyon,
-            usinage tournage,
-            usinage metal,
-            usinage mécanique de précision,
-            usinage grande dimension,
-            usinage nantes,
-            usinage inox,
-            usinage acier
-            "
-          />
+        <title>Yes usinage</title>
+<meta name="Content-Type" content="UTF-8"/>
+<meta name="Content-Language" content="fr"/>
+<meta name="Description" content="Yes usinage fournit des usinages de précision et de grandes dimensions"/>
+<meta name="Keywords" content="usinage,
+usinage plastique,
+usinage cnc,
+usinage aluminium,
+usinage 5 axes,
+usinage mécanique,
+usinage fraiseuse,
+usinage toulouse,
+usinage fraisage,
+usinage lyon,
+usinage tournage,
+usinage metal,
+usinage mécanique de précision,
+usinage grande dimension,
+usinage nantes,
+usinage inox,
+usinage acier
+"/>
+<meta name="Identifier-Url" content="https://yesusinage.com"/>
+<meta name="Revisit-After" content="15 days"/>
+<meta name="Category" content="engineering"/>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Intro />

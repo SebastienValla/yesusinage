@@ -11,7 +11,7 @@ export default function Layout({ children }) {
       <AppBar className={styles.appBar}>
           <Toolbar>
         <div className={styles.logo}>
-          <Image src={YESUSINAGE} />
+          <Image src={YESUSINAGE} alt="yes usinage Logo"/>
         </div>
         <ul className={styles.links}>
           <div >
@@ -39,7 +39,7 @@ export default function Layout({ children }) {
       </AppBar>
 
       {children}
-      <a href="https://codyseum.com" target="_blank" > 
+      <a href="https://codyseum.com" target="_blank" rel="noreferrer" > 
       <p className={styles.footer}>
    
 Made with love by {""} Codyseum all rights reserved 

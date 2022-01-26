@@ -31,7 +31,7 @@ export default function Precision() {
       <h2>Usinage de précision</h2>
       <div className="grid">
         <div className="imageCard">
-          <Image responsive src={precisionCard} />
+          <Image responsive src={precisionCard} alt="usinage" />
         </div>
 
         <div className="card">

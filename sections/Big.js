@@ -49,7 +49,7 @@ export default function Big() {
           </p>
         </div>
         <div className="imageCard">
-          <Image responsive src={bigCard} />
+          <Image responsive src={bigCard} alt="image Yes usinage" />
         </div>
       </div>
       <h2>Les Capacités Machines</h2>

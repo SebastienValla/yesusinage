@@ -38,7 +38,7 @@ export default function Intro() {
   return (
     <div className={styles.main} id="accueil">
       <div className={styles.banniere}>
-        <Image layout="responsive" objectFit="cover" src={banniere} />
+        <Image layout="responsive" objectFit="cover" src={banniere} alt="image banniere"/>
       </div>
       <div className={styles.onBanniere}>
         <div className={styles.textBanniere}>
@@ -95,7 +95,7 @@ export default function Intro() {
             variants={squareVariants}
             className="imageCard"
           >
-            <Image responsive src={introCard} />
+            <Image responsive src={introCard} alt="usinage" />
           </motion.div>
         </div>
       </div>
