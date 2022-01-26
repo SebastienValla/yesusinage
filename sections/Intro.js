@@ -38,7 +38,12 @@ export default function Intro() {
   return (
     <div className={styles.main} id="accueil">
       <div className={styles.banniere}>
-        <Image layout="responsive" objectFit="cover" src={banniere} alt="image banniere"/>
+        <Image
+          layout="responsive"
+          objectFit="cover"
+          src={banniere}
+          alt="image banniere"
+        />
       </div>
       <div className={styles.onBanniere}>
         <div className={styles.textBanniere}>
@@ -57,12 +62,18 @@ export default function Intro() {
       </div>
 
       <Button
-          className={styles.buttonBanniere2}
-          variant="contained"
-          onClick={handleClick}
-        >
-          Demander un Devis
-        </Button>
+        className={styles.buttonBanniere2}
+        variant="contained"
+        onClick={handleClick}
+        style={{
+          display: "block",
+          marginBottom: 20,
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        Demander un Devis
+      </Button>
       <motion.hr
         ref={ref}
         animate={controls}
