@@ -60,6 +60,7 @@ hr{
 
 
 
+
 .machines{
   border-radius: 10px;
   border: #000;
@@ -131,12 +132,23 @@ button {
 .imageCard {
   border-radius: 10px;
   border: #000;
-  border-style: solid;
+  border-style: none;
   overflow: hidden;
   display: flex;
   margin: 20px;
   background-color: #fefefe;
   max-width: 500px;
+}
+
+.imageCardFull {
+  border-radius: 10px;
+  border: #000;
+  border-style: none;
+  overflow: hidden;
+  display: block;
+  margin: 20px;
+  background-color: #fefefe;
+  width: 80vw;
 }
 
 @media (max-width: 600px) {

@@ -1,8 +1,10 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import precisionCard from "../public/images/precisionCard.jpg";
+import ReactPlayer from "react-player/lazy";
+
 
 const squareVariants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
@@ -21,6 +23,7 @@ const textEntryL = {
 export default function Precision() {
   const controls = useAnimation();
   const [ref, inView] = useInView();
+  
   useEffect(() => {
     if (inView) {
       controls.start("visible");

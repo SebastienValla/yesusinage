@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import bigCard from "../public/images/bigCard.jpg";
+import bigCard from "../public/images/bigCard2.jpg";
 const squareVariants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
   hidden: { opacity: 0, scale: 0 },

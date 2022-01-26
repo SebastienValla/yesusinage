@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import banniere from "../public/images/banniere2.jpg";
 import styles from "../styles/intro.module.css";
 import introCard from "../public/images/introCard.jpg";
+import ReactPlayer from "react-player/lazy";
 
 const squareVariants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
@@ -44,6 +45,7 @@ export default function Intro() {
           src={banniere}
           alt="image banniere"
         />
+
       </div>
       <div className={styles.onBanniere}>
         <div className={styles.textBanniere}>
@@ -107,15 +109,17 @@ export default function Intro() {
           </motion.p>
         </div>
         <div>
-          <motion.div
-            ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={squareVariants}
-            className="imageCard"
+          <div
+            // ref={ref}
+            // animate={controls}
+            // initial="hidden"
+            // variants={squareVariants}
+            // className="imageCard"
           >
-            <Image responsive src={introCard} alt="usinage" />
-          </motion.div>
+                   <ReactPlayer url="https://player.vimeo.com/video/579568169" muted="true" playing="true" loop="true"/>
+
+            {/* <Image responsive src={introCard} alt="usinage" /> */}
+          </div>
         </div>
       </div>
       <motion.hr
