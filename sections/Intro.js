@@ -114,9 +114,9 @@ export default function Intro() {
             // animate={controls}
             // initial="hidden"
             // variants={squareVariants}
-            // className="imageCard"
+             className="imageCard"
           >
-                   <ReactPlayer url="https://player.vimeo.com/video/579568169" muted="true" playing="true" loop="true"/>
+                   <ReactPlayer url="https://player.vimeo.com/video/579568169" muted="true" playing="true" loop="true" style={{maxWidth:375}}/>
 
             {/* <Image responsive src={introCard} alt="usinage" /> */}
           </div>
