@@ -1,3 +1,5 @@
+Here a is a simple website coded with NextJs, and Framer Motion to use as a Next Js Template for Industry Vitrine website if you wish to.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
